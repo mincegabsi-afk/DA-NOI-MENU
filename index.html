@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes"
+    />
+    <title>Da Noi Hammamet - Menu Digital</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts for professional look -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;600;700&family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>DA NOI</h1>
+        <p class="tagline">Café • Restaurant • Hammamet</p>
+        <!-- If you have a logo image, put it in images/logo.png and uncomment below -->
+        <!-- <img src="images/logo.png" alt="Da Noi Logo" class="logo-img"> -->
+      </div>
+    </header>
+
+    <main>
+      <!-- Daily special section -->
+      <section id="plat-du-jour" class="daily-special">
+        <h2>🍽️ Plat du jour</h2>
+        <div class="special-card">
+          <div class="special-info">
+            <h3 id="plat-name">Chargement...</h3>
+            <p id="plat-desc"></p>
+            <span class="price" id="plat-price"></span>
+            <span class="availability" id="plat-available"></span>
+          </div>
+          <div class="special-image">
+            <img id="plat-image" src="" alt="Plat du jour" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Full menu will be injected here by JavaScript -->
+      <div id="menu-container"></div>
+
+      <!-- Wi-Fi and social links -->
+      <section class="info-footer">
+        <div class="wifi">
+          <h3>📶 Wi-Fi</h3>
+          <p>Network: <span id="wifi-ssid"></span></p>
+          <p>Password: <span id="wifi-password"></span></p>
+        </div>
+        <div class="social">
+          <a href="#" id="facebook-link" target="_blank">Facebook</a>
+          <a href="#" id="googlemaps-link" target="_blank">Google Maps</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        © 2025 Da Noi Hammamet – Menu last updated:
+        <span id="update-date"></span>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

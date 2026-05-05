@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fef7e8;  /* warm beige */
+    color: #2c2b28;
+    line-height: 1.4;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .logo h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #c4450c;  /* terracotta */
+    letter-spacing: 2px;
+  }
+  
+  .tagline {
+    font-size: 1rem;
+    color: #4a6a5e;  /* mediterranean green */
+    margin-bottom: 0.5rem;
+  }
+  
+  .logo-img {
+    max-width: 150px;
+    margin-top: 10px;
+  }
+  
+  /* Daily special card */
+  .daily-special {
+    background: #fff3e0;
+    border-radius: 24px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-left: 6px solid #c4450c;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  
+  .daily-special h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #c4450c;
+  }
+  
+  .special-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .special-info {
+    flex: 2;
+  }
+  
+  .special-info h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+  
+  .special-info p {
+    margin: 0.5rem 0;
+    color: #5e5b56;
+  }
+  
+  .price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2c6e4f;
+  }
+  
+  .availability {
+    display: inline-block;
+    margin-left: 1rem;
+    background: #c4450c20;
+    padding: 0.2rem 0.6rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+  }
+  
+  /* Menu categories */
+  .category {
+    margin-bottom: 2rem;
+  }
+  
+  .category h2 {
+    font-size: 1.8rem;
+    border-bottom: 2px solid #c4450c;
+    display: inline-block;
+    padding-bottom: 0.2rem;
+    margin-bottom: 1rem;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .items-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+  }
+  
+  .menu-item {
+    background: white;
+    border-radius: 16px;
+    padding: 0.8rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: 0.2s;
+  }
+  
+  .menu-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .item-info {
+    flex: 3;
+  }
+  
+  .item-name {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
+  .item-desc {
+    font-size: 0.8rem;
+    color: #7f8c8d;
+    margin-top: 0.2rem;
+  }
+  
+  .item-price {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #c4450c;
+    margin-left: 1rem;
+    white-space: nowrap;
+  }
+  
+  .info-footer {
+    margin-top: 3rem;
+    padding: 1.5rem;
+    background: #2c2b28;
+    color: #fef7e8;
+    border-radius: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  .wifi h3, .social h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .social a {
+    color: #f4a261;
+    text-decoration: none;
+    margin-right: 1rem;
+    font-weight: 500;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color: #7f8c8d;
+  }
+  
+  /* Responsive for phones */
+  @media (max-width: 600px) {
+    body {
+      padding: 12px;
+    }
+    .menu-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .item-price {
+      margin-left: 0;
+      margin-top: 0.3rem;
+    }
+  }

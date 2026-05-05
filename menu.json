@@ -1,0 +1,214 @@
+{
+    "restaurant": "Da Noi Hammamet",
+    "slogan": "Café – Restaurant – Spécialités italiennes & tunisiennes",
+    "wifi": {
+      "ssid": "DaNoi_Guest",
+      "password": "hammamet2025"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/DaNoi.Hammamet/",
+      "googleMaps": "https://g.co/kgs/nH4UyL"
+    },
+    "categories": [
+      {
+        "name": "Côté Entrées",
+        "icon": "🥗",
+        "items": [
+          { "name": "Soupe de jour", "price": 8.5, "description": "", "image": "" },
+          { "name": "Salade mêlée", "price": 15, "description": "", "image": "" },
+          { "name": "Salade au poulet fumé", "price": 16, "description": "", "image": "" },
+          { "name": "Salade césar", "price": 22.5, "description": "", "image": "" },
+          { "name": "Antipasti à la viande séchée", "price": 22.5, "description": "légumes grillés, bresaola, roquette, artichaut, tomate séché, Parmigiano", "image": "" },
+          { "name": "Omelette au choix", "price": 12.5, "description": "", "image": "" },
+          { "name": "Calamar doré", "price": 26, "description": "", "image": "" },
+          { "name": "Moules marinières", "price": 26, "description": "", "image": "" }
+        ]
+      },
+      {
+        "name": "Côté Pâtes - Sauce tomate",
+        "icon": "🍝",
+        "items": [
+          { "name": "Spaghetti pomodoro basilico", "price": 17.5, "description": "", "image": "" },
+          { "name": "Rigatoni legume", "price": 25.5, "description": "Peperone, melanzana, zukini, funghi", "image": "" },
+          { "name": "Penne arrabiata con carne", "price": 28, "description": "aux boulettes de viande", "image": "" },
+          { "name": "Spaghetti marinara", "price": 39.5, "description": "Fruits de mer", "image": "" },
+          { "name": "Spaghetti puttanesca", "price": 24.5, "description": "thon, olive, câpres", "image": "" },
+          { "name": "Lasagne (Spécial DA NOI)", "price": 28.5, "description": "", "image": "" }
+        ]
+      },
+      {
+        "name": "Côté Pâtes - Sauce blanche (crème)",
+        "icon": "🍝",
+        "items": [
+          { "name": "Tagliatelle 4 fromages", "price": 28.5, "description": "", "image": "" },
+          { "name": "Penne carbonara", "price": 24.5, "description": "", "image": "" },
+          { "name": "Tagliatelle al salmone", "price": 32, "description": "", "image": "" },
+          { "name": "Tagliatelle au poulet", "price": 29, "description": "sauce crème", "image": "" },
+          { "name": "Spaghett à la crème (Fruits de mer)", "price": 42, "description": "", "image": "" },
+          { "name": "Tagliatelle aux chevrettes", "price": 32, "description": "sauce rose", "image": "" }
+        ]
+      },
+      {
+        "name": "Pâtes fraîches (à la crème)",
+        "icon": "🍝",
+        "items": [
+          { "name": "Ravioli al salmone", "price": 28.5, "description": "Saumon", "image": "" },
+          { "name": "Tagliatelle DA NOI", "price": 38, "description": "Funghi Porcini, Bresaola, melanzana, zukini, Parmigiano", "image": "" }
+        ]
+      },
+      {
+        "name": "Sauce à l'ail",
+        "icon": "🍝",
+        "items": [
+          { "name": "Spaghetti aglio, olio, peperoncino", "price": 17.5, "description": "Huile, ail, piment de Cayenne", "image": "" },
+          { "name": "Rigatoni calamar artichauts", "price": 36, "description": "", "image": "" }
+        ]
+      },
+      {
+        "name": "Nouilles chinoises",
+        "icon": "🥢",
+        "items": [
+          { "name": "Nouille chinois au beef (Fried Noodles)", "price": 33, "description": "", "image": "" }
+        ]
+      },
+      {
+        "name": "Côté Suites (Viandes & Poissons)",
+        "icon": "🥩",
+        "items": [
+          { "name": "Emincé de poulet", "price": 27, "description": "", "image": "" },
+          { "name": "Escalope pannée", "price": 20, "description": "", "image": "" },
+          { "name": "Cordon bleu (maison)", "price": 28.5, "description": "", "image": "" },
+          { "name": "Cuisse de poulet 'Thaï'", "price": 27, "description": "", "image": "" },
+          { "name": "Côte à l'os chasseur", "price": 43, "description": "sauce champignon", "image": "" },
+          { "name": "Piccata de veau à la milanaise", "price": 37, "description": "", "image": "" },
+          { "name": "Filet de Loup Sauce aux chevrettes", "price": 38, "description": "", "image": "" },
+          { "name": "Fritto Misto", "price": 39, "description": "calamar doré, beignets de chevrettes, calamar frit, chevrettes frites, friture de rouget et sardine", "image": "" },
+          { "name": "Crevettes à la sauce poivres", "price": 38.5, "description": "", "image": "" },
+          { "name": "Gratin aux fruits de mer", "price": 36.5, "description": "", "image": "" }
+        ]
+      },
+      {
+        "name": "Côté Pizzas",
+        "icon": "🍕",
+        "items": [
+          { "name": "Margherita", "price": 17, "description": "", "image": "" },
+          { "name": "Neptune", "price": 22, "description": "thon, olives, câpres", "image": "" },
+          { "name": "Pepperoni", "price": 19.5, "description": "", "image": "" },
+          { "name": "4 fromages (Sauce blanche)", "price": 26, "description": "", "image": "" },
+          { "name": "Pizza jambon", "price": 19.5, "description": "jambon de dinde fumé", "image": "" },
+          { "name": "4 saisons", "price": 22.5, "description": "Tomate, poivron, artichaut, champignons, jambon dinde", "image": "" },
+          { "name": "Végétarienne", "price": 20.5, "description": "", "image": "" },
+          { "name": "Pêcheur (fruits de mer)", "price": 33.5, "description": "", "image": "" },
+          { "name": "Pizza chevrettes", "price": 30, "description": "chevrettes, beurre à l'ail", "image": "" },
+          { "name": "DA NOI", "price": 28, "description": "Légumes grillés, bresaola, roquette, ricotta, Parmigiano", "image": "" }
+        ]
+      },
+      {
+        "name": "Nos Burgers",
+        "icon": "🍔",
+        "items": [
+          { "name": "Chicken burger", "price": 14.5, "description": "", "image": "" },
+          { "name": "Hamburger", "price": 16, "description": "", "image": "" },
+          { "name": "Fish burger", "price": 15.6, "description": "", "image": "" },
+          { "name": "Cheese burger", "price": 17.5, "description": "", "image": "" },
+          { "name": "Plat frite", "price": 5, "description": "supplément", "image": "" }
+        ]
+      },
+      {
+        "name": "Nos Paninis",
+        "icon": "🥪",
+        "items": [
+          { "name": "Panini au thon et fromage", "price": 11.2, "description": "", "image": "" },
+          { "name": "Panini au poulet et fromage", "price": 11, "description": "", "image": "" },
+          { "name": "Panini au fromage et jambon de dinde fumée", "price": 11, "description": "", "image": "" },
+          { "name": "Panini au saumon fumé", "price": 17, "description": "tomate séchée et citron", "image": "" },
+          { "name": "Panini au bresaola, parmigiano et tomate séchée", "price": 16, "description": "", "image": "" }
+        ]
+      },
+      {
+        "name": "Gaufres salées",
+        "icon": "🧇",
+        "items": [
+          { "name": "Gaufre au fromage et jambon de dinde fumée", "price": 13.5, "description": "", "image": "" },
+          { "name": "Gaufre au poulet, fromage et champignons", "price": 14.5, "description": "", "image": "" },
+          { "name": "Gaufre au thon fromage (sauce tomate)", "price": 14, "description": "", "image": "" }
+        ]
+      },
+      {
+        "name": "Crêpes salées",
+        "icon": "🥞",
+        "items": [
+          { "name": "Crêpe au fromage", "price": 11, "description": "", "image": "" },
+          { "name": "Crêpe au thon et fromage", "price": 13, "description": "", "image": "" },
+          { "name": "Crêpe Tunisienne", "price": 14, "description": "thon, fromage, oeuf, harissa", "image": "" },
+          { "name": "Crêpe au thon, fromage, ricotta", "price": 15, "description": "", "image": "" },
+          { "name": "Crêpe fromage et jambon de dinde fumée", "price": 12.5, "description": "", "image": "" },
+          { "name": "Crêpe au Poulet et fromage", "price": 12.5, "description": "", "image": "" },
+          { "name": "Crêpe au Poulet, fromage, champignons", "price": 15.3, "description": "", "image": "" },
+          { "name": "Crêpe 4 fromages et champignons", "price": 15.3, "description": "", "image": "" },
+          { "name": "Crêpe végétarienne", "price": 14.2, "description": "fromage, champignons, légumes grillés", "image": "" }
+        ]
+      },
+      {
+        "name": "Suppléments",
+        "icon": "➕",
+        "items": [
+          { "name": "Frite", "price": 2.5, "description": "", "image": "" },
+          { "name": "Œuf", "price": 1.5, "description": "", "image": "" },
+          { "name": "Thon (pizza)", "price": 5, "description": "", "image": "" },
+          { "name": "Thon (crêpes)", "price": 3, "description": "", "image": "" },
+          { "name": "Poulet", "price": 3, "description": "", "image": "" },
+          { "name": "Jambon", "price": 2.5, "description": "", "image": "" },
+          { "name": "Champignons", "price": 4, "description": "", "image": "" },
+          { "name": "Roquefort", "price": 3, "description": "", "image": "" },
+          { "name": "Artichaut", "price": 3.5, "description": "", "image": "" },
+          { "name": "Bresaola", "price": 6, "description": "", "image": "" },
+          { "name": "Ricotta", "price": 3, "description": "", "image": "" },
+          { "name": "Pepperoni", "price": 5, "description": "", "image": "" },
+          { "name": "Parmigiano", "price": 3.5, "description": "", "image": "" },
+          { "name": "Chevrettes", "price": 7, "description": "", "image": "" }
+        ]
+      },
+      {
+        "name": "Côté Délices (Desserts)",
+        "icon": "🍰",
+        "items": [
+          { "name": "Macédoine de fruits", "price": 11, "description": "salade de fruits et fruits secs", "image": "" },
+          { "name": "Fondant au chocolat", "price": 11, "description": "", "image": "" },
+          { "name": "Cheese cake", "price": 12.5, "description": "", "image": "" }
+        ]
+      },
+      {
+        "name": "Crêpes sucrées",
+        "icon": "🥞",
+        "items": [
+          { "name": "Crêpe au chocolat", "price": 9, "description": "", "image": "" },
+          { "name": "Crêpe au chocolat et banane", "price": 12.5, "description": "", "image": "" },
+          { "name": "Crêpe au chocolat et amandes", "price": 12, "description": "", "image": "" },
+          { "name": "Crêpe au chocolat, banane et amandes", "price": 14.5, "description": "", "image": "" },
+          { "name": "Crêpe Nutella", "price": 13, "description": "", "image": "" },
+          { "name": "Crêpe Nutella et banane", "price": 16.5, "description": "", "image": "" },
+          { "name": "Crêpe Nutella et amandes", "price": 15, "description": "", "image": "" },
+          { "name": "Crêpe Nutella, banane et amandes", "price": 17.5, "description": "", "image": "" },
+          { "name": "Crêpe DA NOI", "price": 19.5, "description": "Nutella, spéculos, fruits, fruits secs, chantilly", "image": "" }
+        ]
+      },
+      {
+        "name": "Gaufres sucrées",
+        "icon": "🧇",
+        "items": [
+          { "name": "Gaufre au sucre", "price": 8, "description": "", "image": "" },
+          { "name": "Gaufre au chocolat", "price": 9.5, "description": "", "image": "" },
+          { "name": "Gaufre au chocolat et Banane", "price": 12.8, "description": "", "image": "" },
+          { "name": "Gaufre au chocolat et Amandes", "price": 11.8, "description": "", "image": "" },
+          { "name": "Gaufre au Chocolat, Banane et Amandes", "price": 15, "description": "", "image": "" },
+          { "name": "Gaufre Nutella", "price": 13, "description": "", "image": "" },
+          { "name": "Gaufre Nutella banane", "price": 16.5, "description": "", "image": "" },
+          { "name": "Gaufre Nutella amandes", "price": 15, "description": "", "image": "" },
+          { "name": "Gaufre Nutella banane et amandes", "price": 17.5, "description": "", "image": "" },
+          { "name": "Gaufre DA NOI", "price": 19, "description": "Nutella, fruits, chantilly, fruits secs", "image": "" },
+          { "name": "Supplément 1 boule de glace", "price": 4.2, "description": "", "image": "" }
+        ]
+      }
+    ]
+  }
